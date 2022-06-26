@@ -9,9 +9,10 @@
 
 <body>
     <h1><%= mobile.title %></h1>
-    <!-- <h2><%= mobile.location %></h2> -->
+  
     <p> <a href="/mobiles/<%=mobile._id%>/edit">Edit</a>
     </p>
+    <p> </p>
     <p>
     <form action="/mobiles/<%=mobile._id%>?_method=DELETE" method="POST">
         <button>Delete</button>

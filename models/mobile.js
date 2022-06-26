@@ -4,8 +4,8 @@ const Schema = mongoose.Schema;
 const MobileSchema = new Schema({
     title: String,
     img:String,
-    price: String,
-    description: String,
+    // price: Number,
+    // description: String,
     
 });
 

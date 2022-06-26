@@ -43,8 +43,6 @@ module.exports=
   {
     id: "9cf782a9cd7b4b06ae1f7b199e2164f1",
     name: "Micromax Mobiles"
-  },
-  {
-    id: ""
   }
+  
 ]
