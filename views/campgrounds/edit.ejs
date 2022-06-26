@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Mobile</title>
+</head>
+
+<body>
+    <h1>Edit Mobile</h1>
+    <form action="/Mobiles/<%=mobile._id%>?_method=PUT" method="POST">
+        <div>
+            <label for="title">Title</label>
+            <input type="text" id="title" name="mobile[title]" value="<%=mobile.title %>">
+        </div>
+        <!-- <div> -->
+            <!-- <label for="location">Location</label> -->
+            <!-- <input type="text" id="location" name="mobile[location]" value="<%= mobile.location%>"> -->
+        <!-- </div> -->
+        <button>Update Mobile</button>
+    </form>
+    <a href="/mobiles/<%= mobile._id%>">Back To Mobile</a>
+
+</body>
+
+</html>
